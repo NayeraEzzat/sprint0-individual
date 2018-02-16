@@ -1,0 +1,29 @@
+cd desktop
+git clone https://github.com/NayeraEzzat/sprint0-individual.git
+cd sprint0-individual
+git add 'section 1.1.txt’
+git commit -m "first commit”
+git push --set-upstream origin master
+git add 'section 3.1.txt’
+git commit -m "second commit”
+git push
+git add 'section 5.1.txt’
+git commit -m "third commit”
+git push
+git rm --cached 'section 3.1.txt
+git status
+git commit -m "remove section 3.1.txt"
+git push origin master  
+git add 'section 3.1.txt'
+git commit -m "third commit"
+git push
+git checkout -b ReadMe
+git checkout ReadMe
+git add README.md
+git commit -m “forth commit”
+git push origin ReadMe
+git checkout master
+git merge ReadMe
+git commit -a
+
+
